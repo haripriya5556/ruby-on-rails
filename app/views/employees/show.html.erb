@@ -1,0 +1,14 @@
+<p>
+  <strong>Name:</strong>
+  <%= @emp.name%>
+</p>
+<p>
+  <strong>empid</strong>
+  <%= @emp.empid%>
+</p>
+<p>
+  <strong>salary</strong>
+  <%=@emp.salary%>
+</p>
+<%= link_to 'Edit',edit_employee_path(@emp)%>|
+<%= link_to 'Back',employees_path %>
